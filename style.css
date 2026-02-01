@@ -6,96 +6,73 @@
 }
 
 body {
-  background: #f4f6f8;
-  padding: 30px;
+  background: #ffffff;
+  color: #000000;
+  line-height: 1.6;
 }
 
-.resume {
-  max-width: 900px;
-  background: #ffffff;
-  margin: auto;
-  padding: 30px;
-  border-radius: 8px;
+.container {
+  max-width: 850px;
+  margin: 40px auto;
+  padding: 20px;
 }
 
 header {
   text-align: center;
-  border-bottom: 2px solid #e0e0e0;
-  padding-bottom: 15px;
-  margin-bottom: 20px;
+  margin-bottom: 30px;
 }
 
 header h1 {
-  font-size: 32px;
-  color: #2c3e50;
+  font-size: 28px;
+  font-weight: bold;
 }
 
-.title {
-  font-size: 18px;
-  color: #555;
-  margin-top: 5px;
+.role {
+  font-size: 16px;
+  margin-top: 4px;
 }
 
 .contact {
   font-size: 14px;
-  color: #666;
-  margin-top: 8px;
+  margin-top: 6px;
 }
 
 section {
-  margin-bottom: 20px;
+  margin-bottom: 24px;
 }
 
 section h2 {
-  font-size: 20px;
-  color: #2c3e50;
+  font-size: 18px;
+  border-bottom: 1px solid #000;
   margin-bottom: 10px;
-  border-left: 4px solid #3498db;
-  padding-left: 8px;
+  padding-bottom: 4px;
 }
 
-.job {
-  margin-bottom: 15px;
+.item {
+  margin-bottom: 16px;
 }
 
-.job h3 {
-  font-size: 16px;
-  color: #333;
+.item h3 {
+  font-size: 15px;
+  font-weight: bold;
 }
 
-.job span {
+.meta {
   font-size: 14px;
-  color: #777;
+  display: block;
+  margin-bottom: 6px;
 }
 
-.job ul {
-  margin-top: 8px;
+ul {
   padding-left: 18px;
 }
 
-.job ul li {
+ul li {
   font-size: 14px;
-  margin-bottom: 5px;
-}
-
-.skills {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 8px;
-}
-
-.skills span {
-  background: #3498db;
-  color: #fff;
-  padding: 6px 10px;
-  border-radius: 4px;
-  font-size: 13px;
+  margin-bottom: 4px;
 }
 
 footer {
-  border-top: 1px solid #e0e0e0;
-  padding-top: 10px;
+  margin-top: 30px;
   font-size: 13px;
-  color: #666;
-  text-align: center;
 }
